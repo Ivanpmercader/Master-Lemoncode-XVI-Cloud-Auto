@@ -1,0 +1,41 @@
+{
+  "name": "react-lab",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "vite",
+    "type-check": "tsc --noEmit --preserveWatchOutput",
+    "prebuild": "npm run type-check",
+    "build": "vite build",
+    "prebuild:dev": "npm run prebuild",
+    "build:dev": "vite build --mode development",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
+    "sass": "^1.83.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11",
+    "vite-plugin-checker": "^0.8.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.6",
+    "@mui/material": "^6.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0",
+    "use-debounce": "^10.0.4"
+  }
+}
