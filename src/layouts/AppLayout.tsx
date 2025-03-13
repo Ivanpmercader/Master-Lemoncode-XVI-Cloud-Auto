@@ -6,15 +6,15 @@ import { routes } from '@router/routes';
 const theme = createTheme({
   palette: {
     primary: {
-      light: '#e0f2f1',
-      main: '#4db6ac',
-      dark: '#004d40',
+      light: '#f25a9a',
+      main: '#86033a',
+      dark: '#360419',
       contrastText: '#fff',
     },
     secondary: {
-      light: '#e0f7fa',
-      main: '#4dd0e1',
-      dark: '#006064',
+      light: '#eeb9d9',
+      main: '#f08ec9',
+      dark: '#c1639c',
       contrastText: '#000',
     },
   },
